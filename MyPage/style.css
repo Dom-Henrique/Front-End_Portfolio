@@ -22,20 +22,39 @@ body{
     margin: none;
 }
 
+h3{
+    background-color: rgba(0, 0, 0, 0.348);
+    border-radius: 20px;
+    display: inline-block;
+    padding: 6px;
+}
+
 .minha_foto>img{
     width: 400px;
     border: solid white 8px;
+    float: left;
 }
 
 .minha_foto {
     display: inline-block;
 }
 
-.GitHub img {
-    width: 80px;
-    position: absolute;
-    left: 88%;
+#GitHub img {
+    width: 70px;
     border-radius: 50%;
+}
+
+#YouTube img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+#YouTube:hover img{
+    width: 90px;
+}
+
+#GitHub:hover img{
+    width: 90px;
 }
 
 .navegacao{
@@ -54,7 +73,6 @@ body{
 .container {
     display: flex;
     align-items: center; /* Alinha verticalmente o conteúdo */
-    justify-content: space-between; /* Distribui o espaço entre os elementos */
 }
 
 .sobre_mim {
@@ -73,7 +91,7 @@ body{
     color: white;
 }
 
-.container:hover a{
+.container:hover>a{
     text-decoration: none;
     color: aqua;
 }
